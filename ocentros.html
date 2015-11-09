@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+<style>
+th {
+    border-bottom: 1px solid #d6d6d6;
+}
+
+tr:nth-child(even) {
+    background: pink;
+}
+</style>
+</head>
+<body bgcolor=pink>
+
+<div data-role="page" id="pageone">
+  <div data-role="header">
+    <h1>Otros centros de atencion afiliados con Vacunasys</h1>
+  </div>
+  
+  <div data-role="main" class="ui-content">
+    <table data-role="table" data-mode="columntoggle" class="ui-responsive ui-shadow" id="myTable">
+      <thead>
+        <tr>
+          <th data-priority="6">Numero</th>
+          <th>Nombre del centro</th>
+          <th data-priority="1">Direccion</th>
+          <th data-priority="2">telefono</th>
+          <th data-priority="3">Ciudad</th>
+          <th data-priority="4">Pagina Web</th>
+          <th data-priority="5">email</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1</td>
+          <td>Centro Medico Imbanaco</td>
+          <td>Cra. 38 BIS No. 5B2-04</td>
+          <td>6851000</td>
+          <td>Cali</td>
+          <td>www.imbanaco.com</td>
+          <td>atencion@imbanaco.com</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>Comfenalco Valle</td>
+          <td>Cra. 6 #6-63</td>
+          <td>8862727</td>
+          <td>Cali</td>
+          <td>www.comfenalcovalle.com.co</td>
+          <td>atencion@comfenalcovalle.com.co</td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>Sanitas internacional</td>
+          <td>Cra 50 #5-49</td>
+          <td>5526488</td>
+          <td>Cali</td>
+          <td>www.colsanitas.com</td>
+          <td>atencionclientes@colsanitas.com</td>
+        </tr>
+        <tr>
+          <td>4</td>
+          <td>Clinica de Occidente</td>
+          <td>Avenida 5 #17 N-93</td>
+          <td>6603000</td>
+          <td>Cali</td>
+          <td>www.clinicadeoccidente.com.co</td>
+          <td>atencion@cdo.com.co</td>
+        </tr>
+
+      </tbody>
+    </table>
+  </div>
+
+  <div data-role="footer">
+    <h1>En cualquiera de estos sitios puedes vacunar a tu hijo y los datos seran automaticamente cargados en la base de datos de Vacunasys S.A.</h1>
+  </div>
+</div> 
+
+</body>
+</html>
